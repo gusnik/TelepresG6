@@ -1,0 +1,40 @@
+<script>
+
+$('li.listing').click(function() {
+   $('li.listing').not(this).find('ul').hide();
+   $(this).find('ul').toggle();
+
+});
+</script>
+
+
+<div class="listingsPage">
+    <div class="bannerRow">
+            <h2>Listings</h2>
+    </div>
+    <div class="navcontainer differentListings">
+        <ul>
+        <li class="listing"><h2>Food<img class="toggle" src="images/drop-down-arrow.png"><img class="toggle2" src="images/play-arrow.png"></h2>
+        <ul>
+            <li><a href="#"><p>Additional</p></a></li>
+            <li><a href="#"><p>Additional 2 etc.</p></a></li>
+        </ul>
+        </li>
+    <li class="listing"><h2>Transportation<img class="toggle" src="images/drop-down-arrow.png"><img class="toggle2" src="images/play-arrow.png"></h2>
+     <ul>
+     <li><a href="#"><p>Additional</p></a></li>
+     <li><a href="#"><p>Additional 2 etc.</p></a></li>
+     </ul>
+</li>
+<li class="listing"><h2>Tools<img class="toggle" src="images/drop-down-arrow.png"><img class="toggle2" src="images/play-arrow.png"></h2>
+   <ul>
+   <li><a href="#"><p>Additional</p></a></li>
+   <li><a href="#"><p>Additional 2 etc.</p></a></li>
+   </ul>
+</li>
+</ul>
+
+</div>
+
+
+<div class="footerMenu" ng-include src="'views/menuBar.html'">?</div>

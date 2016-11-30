@@ -1,0 +1,33 @@
+#map { 
+    height: 400px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+/*Css for the menu-bar across all pages */
+.menu {
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+}
+
+.menuRow {
+    width:100%;
+}
+#listingsLink{
+    width:25%;
+}
+
+#addListingLink {
+    width:25%;
+}
+
+#mapLink {
+    width:25%;
+}
+
+userinfoLink {
+    width:25%;
+}
+
